@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-mfiles",
+  "version": "0.0.0",
+  "description": "M-Files' ESLint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rantanen/eslint-config-mfiles.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Mikko Rantanen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rantanen/eslint-config-mfiles/issues"
+  },
+  "homepage": "https://github.com/Rantanen/eslint-config-mfiles#readme"
+}
