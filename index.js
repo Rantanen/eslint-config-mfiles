@@ -6,7 +6,7 @@ module.exports = {
     plugins: [ "xss" ],
 
     parserOptions: {
-        ecmaVersion: 6,
+        ecmaVersion: 5,
         sourceType: "script",
         ecmaFeatures: { }
     },
@@ -88,8 +88,8 @@ module.exports = {
         "quotes": [ "error", "double" ],
 
         "xss/no-mixed-html": [ "error", {
-            "htmlVariableRules": [ "AsHtml$", "HtmlEncoded$", "^html(A-Z|$)" ],
-            "htmlFunctionRules": [ ".asHtml", "HtmlEncoded$", "Html$" ],
+            "htmlVariableRules": [ "AsHtml$", "HtmlEncoded$", "^html(A-Z|$)", "innerHTML" ],
+            "htmlFunctionRules": [ "\.asHtml", "HtmlEncoded$", "Html$" ],
             "functions": {
 
                 // jQuery
