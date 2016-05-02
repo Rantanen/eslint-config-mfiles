@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mfiles",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "M-Files' ESLint config",
   "main": "index.js",
   "scripts": {
