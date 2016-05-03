@@ -100,6 +100,7 @@ module.exports = {
                 ".join": { "passthrough": { "obj": true, "args": true } },
 
                 // Encoding functions
+                "he.encode": { "htmlOutput": true },
                 "utilities.encodehtml": { "htmlOutput": true },
                 "utilities.encodecss": { "htmlOutput": true },
                 "Number": { "htmlOutput": true }
